@@ -1,0 +1,27 @@
+<form name="myform" id="form">
+
+    name: <input type="text" name="name" id="name" placeholder="Enter your name"><br>
+    phone: <input type="text" name="phone" id="phone" placeholder="Enter your phone"><br>
+    <input type="button" value="OK" onclick="getFormData()">
+
+</form>
+
+<script>
+
+    function getFormData() {
+
+        var name = document.getElementById("name").value;
+        var phone = document.getElementById("phone").value;
+
+        var namepattern = /^[A-Za-z]+$/;
+        if (name == "" || phone == "") {
+            alert("Please fill all the fields");
+            return false;
+        } else if (!name.match(namepattern)) {
+            alert("Please enter only alphabets");
+            return false;
+        }
+
+    }
+
+</script>

@@ -1,0 +1,179 @@
+/* body{
+    margin: 25px;
+   
+} */
+.container{
+    display: flex;
+    justify-content: center;
+}
+.wrapper{
+    border: 2px solid black;
+    width: 450px;
+    height: 425px;
+    border-radius: 18px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-shadow: 10px 10px 10px black;
+    display: inline-block;
+    margin: 30px;
+}
+.wrapper:hover{
+    transform: scale(0.99);
+    box-shadow: 5px 5px 5px 0 black;
+    transition: 0.5s;
+}
+.text{
+    margin-top: 45px;
+    display: inline-block;
+}
+.text ul{
+    list-style: none;
+}
+.text ul li{
+    word-spacing: 2px;
+    letter-spacing: 2px;
+}
+.offer{
+    border: 2px solid #0066b3;
+    width: 35%;
+    height: 40px;
+    display: inline-block;
+    position: relative;
+    bottom: 70px;
+    left: 35px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background-color:#0066b3 ;
+    text-align: center;
+}
+
+.offer:hover{
+    background-color: #fcc739;
+    border: 2px solid #fcc739;
+    transition: 0.3s;
+}
+.offer p{
+    color: white;
+    font-weight: 700;
+    bottom: 7px;
+    position: relative;
+    word-spacing: 5px;
+    letter-spacing: 1px;
+}
+
+
+.perks ul{
+    list-style: none;
+    display: inline-block;
+}
+.perks ul li{
+    font-size: 17px;
+    margin-top: 20px
+}
+
+.buy_plan{
+    border: 2px solid #fcc739;
+    width: 30%;
+    border-radius: 50px;
+    text-align: center;
+    margin-left: 30px;
+    margin-top: 20px;
+    display: inline-block;
+    padding: 3%;
+}
+
+.buy_plan a{
+    color: #000;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 17px;
+}
+
+.buy_plan:hover{
+    transform: scale(0.9);
+    transition: 0.5s;
+    background-color: #fcc739;
+}
+.more_details{
+    display: inline-block;
+    margin-left: 50px;
+    font-size: 17px;
+    font-weight: 700;
+}
+.more_details a{
+    text-decoration: none;
+    color: #0066b3;
+}
+
+/* part 2 */
+
+.container2{
+    display: flex;
+    justify-content: space-evenly;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;;
+}
+
+
+
+.card{
+    margin-top: 200px;
+    border: 2px solid rgb(211, 211, 211);
+    width: 350px;
+    height: 500px;
+    background-color: rgb(211, 211, 211);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    overflow: visible;
+    position: relative;
+}
+
+.circle{
+    border: 10px solid white;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+   position: absolute;
+    bottom: 417px;
+    left: 97px;
+    background-color: rgb(211, 211, 211);
+    box-shadow: 0 0 10px #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+
+.text1{
+    text-align: center;
+    padding: 2%;
+    margin-top: 10px;
+
+    border-bottom: 1px solid black;
+}
+
+.get_started{
+    display: flex;
+    text-align: center;
+    border: 2px solid rgb(45, 45, 45);
+    border-radius: 10px;
+    width: 150px;
+    height: 75px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 100px;
+    margin-top: 20px;
+    background-color: rgb(45, 45, 45);
+}
+
+.get_started a{
+    text-decoration: none;
+    color: white;
+    letter-spacing: 3px;
+    font-weight: 700;
+}
+
+.get_started:hover{
+    background-color: #000;
+    transform: scale(1.1);
+    transition: 0.5s;
+}

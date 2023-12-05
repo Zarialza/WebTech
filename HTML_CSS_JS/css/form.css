@@ -1,0 +1,16 @@
+
+h1{
+    margin-left: 460px;
+    margin-right:  auto ;
+    display:inline-block;
+    font-size: 50px;
+    border: 2px solid #000;
+    text-decoration: none;
+    position: relative;
+}
+form, input, label, button{
+    padding: 10px 10px;
+}
+div form p{
+    display: inline;
+}

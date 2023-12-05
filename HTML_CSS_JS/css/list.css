@@ -1,0 +1,8 @@
+
+h1{
+    align-items: center;
+}
+.lists ul li{
+    align-items: center;
+    list-style-type: square;
+}

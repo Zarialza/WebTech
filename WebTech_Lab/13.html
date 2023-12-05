@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Destination anchor tags</title>
+</head>
+<body>
+    <h1>Q13. Destination Anchor Tags</h1>
+
+    <div id="top">
+        <a href="#bottom"><h2>Click Here <br>To Go To <br>Bottom</h2></a>
+    </div>
+
+    <div id="bottom">
+        <a href="#top"><h2>Click Here <br>To Go To <br>Top</h2></a>
+    </div>
+
+    <style>
+        *{
+            scroll-behavior: smooth;
+        }
+        #top, #bottom{
+            display: flex;
+            justify-content: center;
+            text-align: center;
+        }
+        #top{
+            margin-bottom: 1000px;
+        }
+    </style>
+</body>
+</html>

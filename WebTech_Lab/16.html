@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Map Example</title>
+</head>
+<body>
+
+    <h2>Client-Side Image Map</h2>
+    <img src="client-side-image.jpg" usemap="#clientMap" alt="Client-Side Image Map">
+
+    <map name="clientMap">
+        <area shape="rect" coords="0,0,100,100" href="https://example.com/link1" alt="Link 1">
+        <area shape="rect" coords="100,0,200,100" href="https://example.com/link2" alt="Link 2">
+    </map>
+
+    <h2>Server-Side Image Map</h2>
+    <img src="server-side-image.jpg" usemap="#serverMap" alt="Server-Side Image Map">
+
+    <map name="serverMap">
+        <area shape="circle" coords="100,100,50" href="/server-link1" alt="Server Link 1">
+        <area shape="circle" coords="300,100,50" href="/server-link2" alt="Server Link 2">
+    </map>
+
+</body>
+</html>

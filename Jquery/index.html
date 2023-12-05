@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="p1">Nepal</p>
+    <p class="p2">Nepal</p>
+    <span>Nepalese</span>
+    <input type="button" value="Hide/show" id="btn1">
+    <script>   
+    
+        // var data = $("#p1").text();
+        // var data1 = $(".p2").text();
+        // var data2 = $("span").text();s
+
+        // console.log(data2);
+        $("#btn1").on("click",(function(){
+            $("#p1, .p2").toggle();
+        }))
+    </script>
+</body>
+</html>
